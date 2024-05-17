@@ -1,0 +1,17 @@
+{
+  "name": "sse-ws",
+  "version": "1.0.0",
+  "description": "backend",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "node ./src/js/server.js",
+    "watch": "nodemon ./src/js/server.js"
+  },
+  "author": "Evgeniy",
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "^9.0.1",
+    "ws": "^8.17.0"
+  }
+}
